@@ -2,50 +2,50 @@
    <head>
       <title>Icons</title>
       <style>
-					.icon {
-						display: block;
-						margin: 50px;
-						background-color: blue;
-						width:50px;
-						height:50px;
-					}
+	.icon {
+		display: block;
+		margin: 50px;
+		background-color: blue;
+		width:50px;
+		height:50px;
+	}
 
-					.turn {
-						 animation: turn 2s infinite;
-					}
+	.turn {
+		 animation: turn 2s infinite;
+	}
 
-					.uppy {
-						 animation: uppy 0.5s infinite;
-					}
+	.uppy {
+		 animation: uppy 0.5s infinite;
+	}
 
-					.sideways {
-						 animation: sideways 1.5s linear infinite;
-					}
+	.sideways {
+		 animation: sideways 1.5s linear infinite;
+	}
 
-					.disappear { 
-						 animation: disappear 2s infinite;
-					}
+	.disappear { 
+		 animation: disappear 2s infinite;
+	}
 
-					@keyframes turn {
-						 50% {transform:rotate(120deg);}
-						 100% {transform:rotate(360deg);}
-					}
+	@keyframes turn {
+		 50% {transform:rotate(120deg);}
+		 100% {transform:rotate(360deg);}
+	}
 
-					@keyframes uppy {
-						 50% {transform:translateY(3px);}
-					}
+	@keyframes uppy {
+		 50% {transform:translateY(3px);}
+	}
 
-					@keyframes sideways {
-						 25% {transform:rotate(20deg);}
-						 75% {transform:rotate(-20deg);}
-						 100% {transform:rotate(0deg);}
-					}
+	@keyframes sideways {
+		 25% {transform:rotate(20deg);}
+		 75% {transform:rotate(-20deg);}
+		 100% {transform:rotate(0deg);}
+	}
 
-					@keyframes disappear {
-						 35% {transform:scale(0,0) rotate(120deg);}
-						 100% {transform:scale(1,1) rotate(360deg);}
-					}
-					
+	@keyframes disappear {
+		 35% {transform:scale(0,0) rotate(120deg);}
+		 100% {transform:scale(1,1) rotate(360deg);}
+	}
+
       </style>
    </head>
    
