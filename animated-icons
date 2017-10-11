@@ -2,6 +2,12 @@
    <head>
       <title>Icons</title>
       <style>
+      	p {
+		font-family: "Impact", "Arial", Serif;
+		font-size: 20px;
+		line-height: 2;
+	}      	
+	
 	.icon {
 		display: block;
 		margin: 50px;
@@ -25,6 +31,10 @@
 	.disappear { 
 		 animation: disappear 2s infinite;
 	}
+	
+	.spin:hover {
+		animation: spin  0.17s;
+	}
 
 	@keyframes turn {
 		 50% {transform:rotate(120deg);}
@@ -46,18 +56,28 @@
 		 100% {transform:scale(1,1) rotate(360deg);}
 	}
 
+	@keyframes spin {
+            50% {transform: rotate(100deg);}
+        }
+
       </style>
    </head>
    
    <body>
    
-      <div class="icon turn"></div>
+	<p>Active styles:</p>
+	
+	<div class="icon turn"></div>
    
-      <div class="icon uppy"></div>
+      	<div class="icon uppy"></div>
 
-      <div class="icon sideways"></div>
+      	<div class="icon sideways"></div>
    
-      <div class="icon disappear"></div>
+      	<div class="icon disappear"></div>
+      
+      	<p>Hover style:</p>
+      
+      	<div class="icon spin></div>
       
    </body>
 </html>
